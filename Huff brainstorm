@@ -1,0 +1,45 @@
+Huffman coding
+
+turn in
+   -HuffmanCode.java ---- with a HuffmanNode inside it with a "private static"
+   -secretmessage.short
+   -secretmessage.code
+   
+Support files: HuffmanCompressor.java, BitInputStream.java, and BitOutputStream.java
+
+Theory:
+   -frequent values to be stored closer to root in the tree
+   -need to study the req reading to understand priority queue (type queue)
+   - have the frequency in the array already in the main program(they did this for us)
+   - convert that in a priority queue
+   
+   -HuffmanNode
+      -Each node will contain char and int frequency, something else i don't know
+   
+   -Priority Queue
+      -we want to give priority to the least frequency and remove it because it will go deeper in the tree
+         making the code for oen with least frequency longer and the one with most frequency shortest
+      -will make priority queue of huffmanNodes
+      
+      - Take the first two and glue them together in such a way that the frequencies add up but 
+         WHAT HAPPENS TO CHAR
+         
+      -add the new node back to the priority queue, glued one
+      
+      -REPEAT UNTIL ONE NODE IS LEFT (SIZE OF THE PRIORITY QUEUE IS ONE AND THAT IS OUR TREE)
+      
+   -NOW FUCK THE FREQUENCIES, WE DONT CARE
+   
+   -Step 4: When we go left, we print a 0 and if we go right, we print a 1
+   
+   
+   *CONSTRUCTOR HUFFMANCODE
+      - frequencies is an array of frequencies where frequences[i] is the
+        count of the character with ASCII value i
+      -  
+   
+   
+Things i don't understand:
+   The leaves should appear in traversal order. (STEP 4)
+      
+      
