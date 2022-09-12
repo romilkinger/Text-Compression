@@ -1,3 +1,4 @@
+First Impression - Understanding the concept
 Huffman coding
 
 turn in
@@ -28,7 +29,7 @@ Theory:
       
       -REPEAT UNTIL ONE NODE IS LEFT (SIZE OF THE PRIORITY QUEUE IS ONE AND THAT IS OUR TREE)
       
-   -NOW FUCK THE FREQUENCIES, WE DONT CARE
+   -NOW IGNORE THE FREQUENCIES, WE DONT CARE
    
    -Step 4: When we go left, we print a 0 and if we go right, we print a 1
    
